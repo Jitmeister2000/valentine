@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valentine's Day Special</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Envelope GIF -->
+    <div id="envelope" onclick="showCat()">
+        <img src="envelope.jpeg" alt="Pink Envelope" style="width:100%; height:100%;">
+    </div>
+
+    <!-- Container for Cat content -->
+    <div class="container" style="display:none;" id="catContent">
+        <h1>I can't think of anyone else I'd rather spend Valentine's Day with, will you be mine?</h1>
+        <img id="catGif" src="chow.gif" alt="Cat">
+
+
+        <div class="choice-container" id="choiceContainer">
+            <input type="radio" id="yes" name="choice" onclick="handleResponse('yes')">
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="choice" onclick="handleResponse('no')">
+            <label for="no">No</label>
+        </div>
+
+        <p id="responseText"></p>
+    </div>
+    <audio id="audio" src="yescheckboxmusic.mp3"></audio>
+</body>
+</html>
