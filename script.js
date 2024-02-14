@@ -9,7 +9,7 @@ function handleResponse(userResponse) {
     let choiceContainer = document.getElementById('choiceContainer');
 
     if (userResponse === 'yes') {
-        catGif.src = 'happy_cat.gif';
+        catGif.src = 'lovey.gif';
         responseText.innerHTML = 'Yay! You are my Valentine!';
         choiceContainer.style.display = 'none';
         var audio = document.getElementById('audio');
