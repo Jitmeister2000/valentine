@@ -15,7 +15,7 @@ function handleResponse(userResponse) {
         var audio = document.getElementById('audio');
         audio.play();
     } else if (userResponse === 'no') {
-        catGif.src = 'tears.gif';
+        catGif.src = 'marie_sad.gif';
         responseText.innerHTML = 'Oh no! I will find love next time.';
         choiceContainer.style.display = 'none';
     } else {
