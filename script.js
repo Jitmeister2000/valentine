@@ -10,7 +10,7 @@ function handleResponse(userResponse) {
 
     if (userResponse === 'yes') {
         catGif.src = 'lovey.gif';
-        responseText.innerHTML = 'MY TOULOUSE! Happy Valentines Day love, I love you more than anything and I cannot wait to see you and your fat face';
+        responseText.innerHTML = 'MY TOULOUSE! Happy Valentines Day love, I love you more than anything and I cannot wait to see you and your fat face. You are all I want beside me every second of every day to laugh with and hold. Love, Marty';
         choiceContainer.style.display = 'none';
         var audio = document.getElementById('audio');
         audio.play();
