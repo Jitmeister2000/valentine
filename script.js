@@ -10,17 +10,17 @@ function handleResponse(userResponse) {
 
     if (userResponse === 'yes') {
         catGif.src = 'lovey.gif';
-        responseText.innerHTML = 'Yay! You are my Valentine!';
+        responseText.innerHTML = 'MY TOULOUSE! Happy Valentines Day love, I love you more than anything and I cannot wait to see you and your fat face';
         choiceContainer.style.display = 'none';
         var audio = document.getElementById('audio');
         audio.play();
     } else if (userResponse === 'no') {
         catGif.src = 'marie_sad.gif';
-        responseText.innerHTML = 'Oh no! I will find love next time.';
+        responseText.innerHTML = 'No Valentine for me this year it seems...';
+
         choiceContainer.style.display = 'none';
     } else {
         catGif.src = "chow.gif";
         responseText.textContent = "";
     }
 }
-
